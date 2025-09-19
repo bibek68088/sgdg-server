@@ -24,13 +24,7 @@
     "Tag": {
       "type": "enumeration",
       "required": true,
-      "enum": [
-        "HVAC",
-        "Electricity",
-        "Fire",
-        "Acoustics",
-        "Hydraulics"
-      ]
+      "enum": ["HVAC", "Electricity", "Fire", "Acoustics", "Hydraulics"]
     },
     "Published": {
       "type": "date"
@@ -38,12 +32,7 @@
     "featuredImage": {
       "type": "media",
       "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "slug": {
       "type": "string",
