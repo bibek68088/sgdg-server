@@ -22,7 +22,15 @@
       "type": "string"
     },
     "Tag": {
-      "type": "string"
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "HVAC",
+        "Electricity",
+        "Fire",
+        "Acoustics",
+        "Hydraulics"
+      ]
     },
     "Published": {
       "type": "date"
